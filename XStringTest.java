@@ -9,7 +9,7 @@ public class XStringTest extends TestCase {
 	public void testRepl() throws Exception {
 		assertEquals("", new XString("a").transform("repl:0"));
 		assertEquals("bbbb", new XString("b").transform("repl:4"));
-		assertEquals("abab", new XString("ab").transform("repl:1"));
+		assertEquals("abab", new XString("ab").transform("repl:2"));
 	}
 	
 	public void testMixed() throws Exception {
